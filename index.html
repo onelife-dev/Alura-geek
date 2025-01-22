@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura geek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="./assents/Imagem corações.png" alt="logo da alura geek">
+            <h1>AluraGeek</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section class="sessao">
+            <div class="sessao__itens">
+                <h1 class="sessao__titulo">Meus Produtos:</h1>
+                <ul data-product class="sessao_itens_todos"></ul>
+    
+            </div>
+    
+            <section class="sessao__inserir">
+                <form class="sessao__inserir__formulario" data-formulario>
+                    <h1 class="sessao__titulo">Adicionar produto:</h1>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="nome"></label>
+                        <input class="campo__escrita" name="nome" type="text" placeholder="nome..." minlength="3" required
+                            data-nome />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="valor"></label>
+                        <input class="campo__escrita" name="valor" type="number" step="0.1" pattern="\d+(\.\d{2})?"
+                            placeholder="valor..." required data-valor />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="imagem"></label>
+                        <input class="campo__escrita" name="imagem" type="url" placeholder="url-imagem..." required
+                            data-imagem />
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__botao">
+                        <button class="formulario__botao__botao__guardar" type="submit">Guardar</button>
+                        <button class="formulario__botao__botao__limpar" type="reset">Limpar</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+    
+    <footer class="rodape">
+        <h1 class="rodape__titulo">AluraGeek</h1>
+        <p class="rodape__texto">Desenvolvido por Gabriel N. Fernandes</p>
+        <p class="rodape__texto" class="rodape__texto">Todos os direitos reservados</p>
+        <a class="redes-sociais" href="www.linkedin.com/in/gabriel-nascimento-fernandes-65141630a">linkedin</a>
+        <a class="redes-sociais" href="https://github.com/onelife-dev">github</a>
+        <a class="redes-sociais" href="https://www.instagram.com/gabe_feernande/">Instagram</a>
+    </footer>
+    
+    <script src="./js/conectaApi.js" type="module"></script>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    </body>
+    </html>
+    

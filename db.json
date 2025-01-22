@@ -1,0 +1,58 @@
+{
+    "products": [
+      {
+        "name": "Stormtrooper",
+        "price": "60",
+        "image": "./assents/caneca.png",
+        "id": 1
+      },
+      {
+        "name": "Game Boy Classic",
+        "price": "60",
+        "image": "./assents/gameboy.png",
+        "id": 2
+      },
+      {
+        "name": "Stormtrooper",
+        "price": "60",
+        "image": "./assents/caneca.png",
+        "id": 3
+      },
+      {
+        "name": "Game Boy Classic",
+        "price": "60",
+        "image": "./assents/gameboy.png",
+        "id": 4
+      },
+      {
+        "name": "Stormtrooper",
+        "price": "60",
+        "image": "./assents/caneca.png",
+        "id": 5
+      },
+      {
+        "name": "Game Boy Classic",
+        "price": "60",
+        "image": "./assents/gameboy.png",
+        "id": 6
+      },
+      {
+        "name": "Storm+trooper",
+        "price": "60",
+        "image": "./assents/caneca.png",
+        "id": 7
+      },
+      {
+        "name": "Game Boy Classic",
+        "price": "60",
+        "image": "./assents/gameboy.png",
+        "id": 8
+      },
+      {
+        "name": "Storm+trooper",
+        "price": "60",
+        "image": "./assents/caneca.png",
+        "id": 9
+      }
+    ]
+  }
